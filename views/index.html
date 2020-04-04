@@ -3,31 +3,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Chương Trình Thờ Phượng Online - Câm Điếc</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A cool thing made with Glitch">
-    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Cùng nhóm lễ trực tuyến - hỗ trợ dịch ngôn ngữ ký hiệu."
+    />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
 
     <!-- import the webpage's client-side javascript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <header>
-      <h1>Chương Trình Thờ Phượng Online</h1>
+    <header class="container mx-auto pb-8 text-3xl leading-relaxed">
+      <h1>Chương Trình Thờ Phượng Chúa Online</h1>
     </header>
 
-    <main>
-      <iframe
-          src="https://player.twitch.tv/?channel=camdiec&parent=streamernews.example.com"
-          height="720"
-          width="1280"
-          allowfullscreen="true">
-      </iframe>
+    <main class="container mx-auto">
+      <div class="md" style="width: 100%;">
+        <iframe
+          class="rounded-lg"
+          src="https://player.twitch.tv/?channel=camdiec&parent=camdiec.vgm.tv"
+          height="400"
+          width="100%"
+          allowfullscreen="true"
+          autoplay="true"
+        >
+        </iframe>
+      </div>
+      <div class="container pt-8">
+        <h3 class="text-yellow-500 text-xl pb-4">
+          Chương trình phát sóng trực tiếp vào lúc 8h30 sáng ngày 05/04/2020
+        </h3>
+        <hr />
+        <span>
+          Trong lúc chờ đợi, bạn có thể xem các chương trình ngôn ngữ ký hiệu
+          khác
+          <a target="_blank" href="https://vgm.tv/muc-luc/05-ngon-ngu-ky-hieu"
+            >tại trang VGM.TV</a
+          >
+        </span>
+      </div>
     </main>
 
     <!-- include the Glitch button to show what the webpage is about and
