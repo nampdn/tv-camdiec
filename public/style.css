@@ -11,7 +11,7 @@ body {
   background-color: #222;
   color: white;
 }
-
+/* 
 h1 {
   font-style: italic;
   color: #373fff;
@@ -24,7 +24,7 @@ h1 {
 a {
   color: green;
 }
-
+ */
 form {
   background-color: #eee;
   display: grid;

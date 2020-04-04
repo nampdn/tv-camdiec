@@ -1,6 +1,9 @@
+var iframe = document.getElementById("myFrame");
+var elmnt = iframe.contentWindow.document.getElementsByTagName("H1")[0];
+elmnt.style.display = "none";
+
 // client-side js, loaded by index.html
 // run by the browser each time the page is loaded
-
 console.log("hello world :o");
 
 // define variables that reference elements on our page
